@@ -80,16 +80,7 @@ span {
     margin-top: 40px;
     cursor: pointer;
 }
-<<<<<<< Updated upstream
-.input__button-1[type="checkbox"]:checked ~ .label__button-1 .first__button  {}
-=======
-<<<<<<< HEAD
 
-
-=======
-.input__button-1[type="checkbox"]:checked ~ .label__button-1 .first__button  {}
->>>>>>> bddaef94004324b1fdca37b99addb43b02c0b48f
->>>>>>> Stashed changes
 .input__button-1 {
     display: none;
   }
@@ -236,9 +227,6 @@ span {
     font-size: 20px;
     padding-top: 15px;
     font-style: italic;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
 }
 /* футер */
@@ -328,7 +316,4 @@ footer{
 }
 .privatepolicy:hover{
     color: rgb(22, 97, 182);
-=======
->>>>>>> bddaef94004324b1fdca37b99addb43b02c0b48f
->>>>>>> Stashed changes
 }
