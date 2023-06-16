@@ -45,69 +45,186 @@ span {
     padding-left: 25px;
 }
 
-<<<<<<< HEAD
 .first__contain {
     background-image: url(./img/2023-06-16\ \(6\).png);
     background-size: cover;
     background-attachment: fixed;
     height: 700px;
+    padding-left: 200px;
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
 }
 .first__topic {
-    font-family: 'Oswald Medium';
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 72px;
-    color: rgb(255, 215, 165);
+    color: rgb(255, 226, 189);
     font-weight: 600;
+    line-height: 110px;
 }
 .first__text {
-    font-family: '';
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    width: 500px;
+    font-style: italic;
+    margin-top: 50px;
 }
 .first__button {
-=======
+    color: #fff;
+    background-color: rgb(110, 148, 148);
+    padding: 10px 15px;
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.input__button-1[type="checkbox"]:checked ~ .label__button-1 .first__button  {}
+.input__button-1 {
+    display: none;
+  }
+  .form {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+  }
+  .input__button-1[type="checkbox"]:checked ~ .form {
+    display: block;
+    animation: regist 1.5s linear alternate;
+  }
+  @keyframes regist{
+    0% {
+        top: 100%;
+    }
+  }
+  .form_2 {
+    width: 400px;
+    height: 540px;
+    background-color: rgba(110, 148, 148, 0.649);
+    margin: 100px auto;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  .form__topic {
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .form-control {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 20px 30px 0 3px;
+    margin-left: 30px;
+    color: #fff;
+    margin-top: 5px;
+    background-color: rgba(0, 255, 255, 0);
+  }
+  .form-label {
+    position: absolute;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    border-bottom: 1px solid #d0d0d0;
+    width: 330px;
+    padding-bottom: 25px;
+  }
+  .checkbox {
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #ffffff;
+  }
+  .box__button {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    background-color: #000000;
+    width: 150px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .box__button:hover {
+    background-color: #3a3a3a;
+    text-decoration: underline;
+    box-shadow: 0 0 10px #2e2e2e;
+  }
+  .box_under {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    width: 450px;
+  }
+  .under_register{
+        padding-left: 100px;
+        cursor: pointer;
+  }
+  
+
+/* PART-2 */
 
 .pin1{
     display: flex;
-    flex-wrap: wrap;
+   /*  flex-wrap: wrap; */
     justify-content: center;
     font-family: 'Geologica', sans-serif;
     gap: 60px;
 }
 .article{
     text-align: center;
-    margin-top:100px ;
+    margin-top:80px ;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 5px 10px #0000006b;
 }
 
 .pin{
-   width: 320px;
-   height: 435px;
-   margin-top: 110px;
+   width: 300px;
+   margin-top: 80px;
    font-size: 13px;
    text-align: center;
    border-radius: 7px;
-   border: solid black;
+   border: solid black 1px;
    transition: transform 1s ;
    box-shadow: 2px 3px 7px black;
+   padding-bottom: 10px;
+   margin-bottom: 30px;
 }
 .pin:hover{
     transform: scale(1.070);
 }
-
- p{
+.text__pin {
     font-size: 15px;
-    margin-top: 40px;
+    margin-top: 35px;
     line-height:30px ;
- }
- body{
+    padding: 0 20px;
+}
+ main{
     background-color:rgb(110, 148, 148) ;
 }
 .knopka{
     border-radius: 21px;
-    width: 125px;
-    height: 40px;
+    height: 30px;
+    font-size: 12px;
     border-style: none;
+    padding: 0 10px;
+    font-style: italic;
 }
 
 .knopka:hover{
     background-color: black;
     color: white;
->>>>>>> 82cf29f0731adecd88de20d4615b8da0521cd1c2
+}
+.topic__pin {
+    font-size: 20px;
+    padding-top: 15px;
+    font-style: italic;
 }
