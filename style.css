@@ -45,6 +45,7 @@ span {
     padding-left: 25px;
 }
 
+<<<<<<< HEAD
 .first__contain {
     background-image: url(./img/2023-06-16\ \(6\).png);
     background-size: cover;
@@ -61,4 +62,52 @@ span {
     font-family: '';
 }
 .first__button {
+=======
+
+.pin1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Geologica', sans-serif;
+    gap: 60px;
+}
+.article{
+    text-align: center;
+    margin-top:100px ;
+}
+
+.pin{
+   width: 320px;
+   height: 435px;
+   margin-top: 110px;
+   font-size: 13px;
+   text-align: center;
+   border-radius: 7px;
+   border: solid black;
+   transition: transform 1s ;
+   box-shadow: 2px 3px 7px black;
+}
+.pin:hover{
+    transform: scale(1.070);
+}
+
+ p{
+    font-size: 15px;
+    margin-top: 40px;
+    line-height:30px ;
+ }
+ body{
+    background-color:rgb(110, 148, 148) ;
+}
+.knopka{
+    border-radius: 21px;
+    width: 125px;
+    height: 40px;
+    border-style: none;
+}
+
+.knopka:hover{
+    background-color: black;
+    color: white;
+>>>>>>> 82cf29f0731adecd88de20d4615b8da0521cd1c2
 }
