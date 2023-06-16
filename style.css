@@ -44,3 +44,21 @@ span {
 .nav__menu-foto {
     padding-left: 25px;
 }
+
+.first__contain {
+    background-image: url(./img/2023-06-16\ \(6\).png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+.first__topic {
+    font-family: 'Oswald Medium';
+    font-size: 72px;
+    color: rgb(255, 215, 165);
+    font-weight: 600;
+}
+.first__text {
+    font-family: '';
+}
+.first__button {
+}
