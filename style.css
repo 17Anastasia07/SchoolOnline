@@ -611,10 +611,15 @@ footer {
 .q {
   padding-top: 60px;
 }
-.partners-link {
+.partners-link:hover {
+  transform: rotate(360deg);
 }
+
 .partners-image {
+ 
 }
+
+
 .partners-text {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
