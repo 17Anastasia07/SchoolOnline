@@ -283,6 +283,9 @@ main {
   .info__description {
     align-items: center;
   }
+  .perevaga {
+    
+  }
   
 }
 @media (max-width: 575px) {
@@ -611,7 +614,7 @@ footer {
 .q {
   padding-top: 60px;
 }
-.partners-link:hover {
+.partners-image:hover {
   transform: rotate(360deg);
 }
 
@@ -685,4 +688,71 @@ footer {
 
 .partners-button:hover:after{
   width: 100%;
+}
+
+.perevaga{ 
+  margin-top: 90px; 
+}
+ 
+.perevaga1{ 
+display: flex; 
+margin-left: 270px; 
+} 
+ 
+.perevaga2{ 
+  margin-left: 900px; 
+} 
+ 
+.article2{ 
+  margin-top: -100px; 
+   text-align: center; 
+  font-size: 40px; 
+  font-weight: 600; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+  text-shadow: 3px 5px 10px #0000006b; 
+} 
+ 
+.text__pin1{ 
+  font-size: 15px; 
+  line-height: 45px; 
+  width: 400px; 
+  margin-left: 10%; 
+} 
+ 
+.text__pin2{ 
+  font-size: 15px; 
+  line-height: 45px; 
+  width: 400px; 
+  margin-left: -93%; 
+  margin-top: -330px; 
+  font-size: 21px; 
+} 
+ 
+.peha{ 
+  font-size: 21px; 
+ margin-top: -29px; 
+ margin-left: -420px; 
+} 
+ 
+.peha1{ 
+margin-left: -530px; 
+width: 400px; 
+line-height: 45px; 
+} 
+ 
+.text__pin3{ 
+    font-size: 15px; 
+  line-height: 45px; 
+  width: 400px; 
+  margin-left: 10%; 
+  margin-top: 30px; 
+} 
+ 
+.peha2{ 
+  font-size: 21px; 
+ margin-top: -10px; 
+ margin-left: -390px; 
+}
+.article2 {
+  margin-top: 100px;
 }
