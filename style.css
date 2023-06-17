@@ -283,6 +283,7 @@ main {
   .info__description {
     align-items: center;
   }
+  
 }
 @media (max-width: 575px) {
   .first__contain {
@@ -329,6 +330,40 @@ main {
   .privat {
     display: none;
   }
+  .header_burger {
+    display: block;
+    position: relative;
+}
+.burger_line {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 4px;
+    right: 20px;
+    background-color: rgb(141, 188, 188);
+    box-shadow: 0 0 10px #ffffff;
+}
+.burger_line::before {
+    content: '';
+    width: 50px;
+    height: 4px;
+    top: 15px;
+    position: absolute;
+    background-color: rgb(141, 188, 188);
+    box-shadow: 0 0 10px #ffffff;
+}
+.burger_line::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    bottom: 15px;
+    position: absolute;
+    background-color: rgb(141, 188, 188);
+    box-shadow: 0 0 10px #ffffff;
+}
+.nav__menu {
+  display: none;
+}
 
 }
 /* футер */
