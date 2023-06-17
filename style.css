@@ -1,10 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgba(231, 231, 231, 0.416);
 }
 .header {
   max-width: 1200px;
   margin: 20px auto;
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: space-between;
   
@@ -61,9 +64,9 @@ span {
 .container {
   background-image: url(./img/2023-06-16\ \(6\).png);
   background-size: cover;
-  background-attachment: fixed;
-  height: 700px;
-  padding-top: 100px;
+  max-width: 100%;
+  height: 100vh;
+ padding-top: 100px;
   overflow: hidden;
   position: relative;
   padding-left: 150px;
@@ -86,7 +89,7 @@ span {
 .first__text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
-  width: 500px;
+  max-width: 500px;
   font-style: italic;
   margin-top: 50px;
   animation: f-text 1s linear 1;
@@ -263,15 +266,37 @@ main {
   .pin1 {
     flex-wrap: wrap;
   }
+  .container {
+    max-width: 1200px;
+  }
 }
 @media (max-width: 991px) {
+  .container {
+    max-width: 991px;
+  }
   .first__contain {
     padding-left: 100px;
+  }
+  .info__flex-box {
+    flex-direction: column;
+  }
+  .info__description {
+    align-items: center;
   }
 }
 @media (max-width: 575px) {
   .first__contain {
     padding-left: 20px;
+  }
+  .container {
+    max-width: 575px;
+  }
+  .first__topic {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .first__text {
+    font-size: 15px;
   }
   .topic__pin {
     font-size: 17px;
@@ -294,6 +319,15 @@ main {
   }
   .footer-image {
     margin-left: -20px;
+  }
+  .info__image {
+    width: 450px;
+  }
+  .pay-footer {
+    display: none;
+  }
+  .privat {
+    display: none;
   }
 
 }
@@ -499,6 +533,7 @@ footer {
   width: 350px;
   margin: 150px 120px 0px;
   font-size: 20px;
+  align-items: left;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 .info__box__button {
@@ -534,6 +569,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding-top: 60px;
+  flex-wrap: wrap;
 }
 .partners-item {
 }
@@ -548,6 +584,7 @@ footer {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 28px;
+  padding-bottom: 20px;
 }
 .w {
   padding-top: 82px;
@@ -555,10 +592,57 @@ footer {
 .container4 {
 }
 .partners-button {
-  margin-top: 30px;
-  margin-left: 35px;
-
+  margin-top: 50px;
+  margin-left: 30px;
 }
+
 .partners {
-  height: 750px;
+  height: 100%;
+}
+.partners-button {
+  position: fixed;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.but__text{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.partners-button{
+  position: relative;
+  z-index: 2;
+}
+
+.partners-button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(102, 139, 139);
+  transition: all .35s;
+}
+
+.but__text:hover{
+  color: #fff;
+  z-index: 5;
+}
+
+.partners-button:hover:after{
+  width: 100%;
 }
