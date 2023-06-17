@@ -573,3 +573,48 @@ footer {
       width: 100%;
     }
   }/*# sourceMappingURL=main.css.map */
+  .partners-item{
+    background-color:  rgb(110, 148, 148);
+    border-radius: 5px;
+    /* border: solid #000000 1px ; */
+    /* box-shadow: 2px 3px 7px black; */
+    height: 350px;
+  }
+  .partners-list{
+    display: flex;
+    gap: 130px;
+  }
+  .partners-title{
+    text-align: center;
+    font-size: 50px;
+  }
+  .partners-text{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+.q{
+    padding-top: 70px;
+}
+.w{
+  margin-top: 98px;
+}
+.container4{
+  display: flex;
+  justify-content: center;
+}
+.partners-button{
+  border-radius: 21px;
+  height: 30px;
+  font-size: 12px;
+  border-style: none;
+  padding: 0 10px;
+  font-style: italic;
+}
+.partners{
+  padding-bottom: 40px;
+}
+.partners-button:hover {
+  background-color: black;
+  color: white;
+}
