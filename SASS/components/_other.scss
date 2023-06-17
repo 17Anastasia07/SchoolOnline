@@ -115,6 +115,15 @@ html {
     position: absolute;
     right: 5%;
     top: 5%;
+    @media screen and (max-width:1199px) {
+        // display: none;
+    }
+  }
+
+  .form_2{
+    @media screen and (max-width:1199px) {
+      display: none;
+    }
   }
   .input__button-1[type="checkbox"]:checked ~ .form {
     display: block;

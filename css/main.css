@@ -151,6 +151,11 @@ span {
   right: 5%;
   top: 5%;
 }
+@media screen and (max-width: 1199px) {
+  .form_2 {
+    display: none;
+  }
+}
 
 .input__button-1[type=checkbox]:checked ~ .form {
   display: block;
