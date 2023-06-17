@@ -73,6 +73,9 @@ html {
     font-weight: 600;
     line-height: 110px;
     animation: f-top 1s linear 1;
+    @media screen and (max-width:1199px) {
+        font-size: 40px;
+    }
   }
   @keyframes f-top {
       0% {

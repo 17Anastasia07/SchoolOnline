@@ -90,6 +90,11 @@ span {
   -webkit-animation: f-top 1s linear 1;
           animation: f-top 1s linear 1;
 }
+@media screen and (max-width: 1199px) {
+  .first__topic {
+    font-size: 40px;
+  }
+}
 
 @-webkit-keyframes f-top {
   0% {
