@@ -39,7 +39,7 @@ li {
         font-size: 25px;
 }
 span {
-    color: rgb(110, 148, 148);
+    color: rgb(144, 194, 194);
 }
 .nav__menu-foto {
     padding-left: 25px;
@@ -102,13 +102,13 @@ span {
   .form_2 {
     width: 400px;
     height: 540px;
-    background-color: rgba(110, 148, 148, 0.649);
+    background-color: rgba(110, 148, 148, 0.711);
     margin: 100px auto;
     backdrop-filter: blur(10px);
     border-radius: 10px;
   }
   .form__topic {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     text-shadow: 0 0 10px #fff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -143,13 +143,13 @@ span {
     display: flex;
     justify-content: center;
     margin: 30px auto;
-    background-color: #000000;
+    background-color: #4a4a4a;
     width: 150px;
     font-size: 15px;
     font-style: italic;
     padding: 10px 15px;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
   }
   .box__button:hover {
     background-color: #3a3a3a;
@@ -208,7 +208,7 @@ span {
     padding: 0 20px;
 }
  main{
-    background-color:rgb(110, 148, 148) ;
+    background-color: rgb(148, 200, 200);
 }
 .knopka{
     border-radius: 21px;
@@ -217,6 +217,7 @@ span {
     border-style: none;
     padding: 0 10px;
     font-style: italic;
+    background-color: #ffffffad;
 }
 
 .knopka:hover{
@@ -227,4 +228,24 @@ span {
     font-size: 20px;
     padding-top: 15px;
     font-style: italic;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .pin1 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 991px) {
+  .first__contain {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .first__contain {
+    padding-left: 20px;
+  }
+  .topic__pin {
+    font-size: 17px;
+  }
 }
